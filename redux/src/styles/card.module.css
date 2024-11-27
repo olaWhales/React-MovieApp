@@ -1,0 +1,15 @@
+.image{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 12px;
+    width: 20px;
+    grid-column: 1;
+}
+img{
+    width: 100px;
+    height: 150px;
+}
+.overview{
+    width: 200px;
+    font-size: 14px
+}

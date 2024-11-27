@@ -1,0 +1,13 @@
+.outletContainer{
+    /* display: flex; */
+    padding: 20px;
+    /* margin: auto; */
+    justify-content: space-around;
+    gap: 0px;
+}
+.button{
+    margin: auto;
+    color: rgb(14, 230, 61);
+    margin: 0%;
+    text-align: center;
+}

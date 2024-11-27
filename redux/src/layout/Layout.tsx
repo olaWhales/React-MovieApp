@@ -1,8 +1,8 @@
 import { Outlet } from "react-router-dom";  // this is where we like all component to come in before so we can all them in 
-import React from 'react' 
 import Footer from "../component/Footer";
 import Header from "../component/Header";
 import SideBar from "../component/SideBar";
+import style from "../styles/layout.module.css";
 
 
 const Layout = () => {
@@ -12,7 +12,6 @@ const Layout = () => {
       <div className={style.outletContainer}>
           <SideBar/>
           <Outlet/>
-
       </div>
       <Footer/>
     </>
